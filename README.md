@@ -35,4 +35,94 @@ Here I created four classes namely,
 </ol>
 
 </h3>
-<h3> All four OOPs pillars [APIE] are implemented in this project </h3>
+<h3> All four OOPs pillars (APIE) are implemented in this project </h3>
+
+<h2>
+
+--------------------------------------
+|             Employee               |
+--------------------------------------
+| - name: String                    |
+| - id: int                         |
+--------------------------------------
+| + Employee(name: String, id: int) |
+| + getName(): String               |
+| + getId(): int                    |
+| + abstract calculateSalary(): double |
+| + toString(): String              |
+--------------------------------------
+
+         |                   ^
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         V                   |
+  -------------------------
+  |    FullTimeEmployee  |
+  -------------------------
+  | - monthlySalary: double |
+  -------------------------
+  | + FullTimeEmployee(name: String, id: int, monthlySalary: double) |
+  | + calculateSalary(): double                                    |
+  -------------------------
+
+         |                      ^
+         |                      |
+         |                      |
+         |                      |
+         |                      |
+         |                      |
+         |                      |
+         |                      |
+         V                      |
+  ---------------------------
+  |    PartTimeEmployee     |
+  ---------------------------
+  | - hoursWorked: int       |
+  | - hourlyRate: double     |
+  ---------------------------
+  | + PartTimeEmployee(name: String, id: int, hoursWorked: int, hourlyRate: double) |
+  | + calculateSalary(): double                                                     |
+  ---------------------------
+
+         |                   ^
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         |                   |
+         V                   |
+  ---------------------------
+  |      PayrollSystem       |
+  ---------------------------
+  | - empList: ArrayList<Employee> |
+  ---------------------------
+  | + PayrollSystem()                  |
+  | + addEmployee(emp: Employee): void |
+  | + removeEmployee(id: int): void    |
+  | + displayEmployees(): void         |
+  ---------------------------
+
+         |
+         |
+         |
+         |
+         |
+         |
+         |
+         |
+         V
+  -------------------------
+  |          Main          |
+  -------------------------
+  | + main(args: String[]): void |
+  -------------------------
+
+  
+</h2>
