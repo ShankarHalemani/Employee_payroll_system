@@ -1,4 +1,4 @@
-# Employee_payroll_system
+# Employee payroll system
 
 <h2> In this project I created Employee payrole management system where we can </h2>
 <h2>
