@@ -37,7 +37,6 @@ Here I created four classes namely,
 </h3>
 <h3> All four OOPs pillars (APIE) are implemented in this project </h3>
 
-<h2>
 
 --------------------------------------
 |             Employee               |
@@ -124,5 +123,4 @@ Here I created four classes namely,
   | + main(args: String[]): void |
   -------------------------
 
-  
-</h2>
+
